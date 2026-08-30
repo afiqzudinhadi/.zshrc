@@ -82,6 +82,7 @@ fi
 if [[ "$OSTYPE" == linux* ]]; then
   alias v="nvim"
   alias tm="tmux"
+  alias tma="tmux attach -t"
 fi
 
 # ---------- thefuck (if installed) ----------
